@@ -288,7 +288,7 @@ function aTag(root,file,text,mime,reqtype) {
  ********************************/
 
 function processArgs() {
-    dirname = (env == 'node-webkit') ? "" : __dirname+'/';    
+    dirname = (env == 'node-webkit') ? "sms-js/" : __dirname+'/';    
     publicFolder = dirname + 'public/';
     
     if (env == 'node-js') {
