@@ -1,0 +1,28 @@
+{
+  "name": "sms-nw",
+  "main": "index.html",
+  "description": "Simple Media Server: A node-webkit front-end to sms-js.",
+  "version": "0.5.0",
+  "window": {
+    "title": "Simple Media Server",
+    "icon": "sms.png",
+    "position": "center",
+    "width": 300,
+    "height": 250,
+    "toolbar": false,
+    "resizable" : false,
+    "fullscreen" : false
+  },
+  "maintainers" : [{
+    "name": "Carlin Jackson",
+    "web": "https://plus.google.com/+CarlinJackson"
+  }],
+  "repositories": {
+    "type": "git",
+    "url": "https://github.com/CarlinJ216/sms-nw.git"
+  },
+  "keywords" : ["media server", "html5", "video", "streaming", "simple"],
+  "webkit": {
+    "plugin": true
+  }  
+}

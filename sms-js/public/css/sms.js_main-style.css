@@ -1,0 +1,331 @@
+/********************************
+ *   Simple Media Server CSS    *
+ ********************************/
+
+body {
+	/*font-size:12px;*/
+	font-family:arial, sans-serif;
+    background: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+hr {
+    margin-top: 2.0rem;
+    margin-bottom: 2.0rem;
+}
+
+/********************************
+ *      Master Template CSS     *
+ ********************************/
+
+#masterPage {
+    height: auto;
+    width: 100%;    
+    position: relative;
+    background-color:transparent;
+}
+
+#masterContent{
+    position: relative; 
+    width: 97.5%;
+    padding: 0%;
+    margin: 9rem auto 0;
+}
+
+#masterHeader {
+    /*min-height: 2rem !important; */
+	width: 100% !important;
+}
+
+#masterHeader h1 {
+    color: rgb(255,255,255);
+    text-shadow: 0rem .1rem .5rem rgb(255,255,0),
+                    0rem 0rem 2.0rem rgb(0,0,0) !important; 
+    white-space: normal !important; 
+    margin: 0.5rem 15% 1.5rem !important;
+}
+
+#masterFooter {
+    min-height: 2rem !important;
+}
+
+#masterFooter h1 {
+    font-size: 2rem !important;
+    margin: 0.05rem auto 0.05rem !important;
+    text-align: center !important;
+}
+
+.innerContent {
+    width: 95%;
+    margin: 0 auto;
+}
+
+/********************************
+ *      Media Template CSS      *
+ ********************************/ 
+ 
+.mediaContent {
+    color: white;
+    /**/
+}
+
+#mediaDiv {
+    width: 100%;
+    text-align: center;
+}
+
+#fname {
+    width:100%;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#dlink {
+    font-size: 2rem;
+}
+
+/********************************
+ *      Video Template CSS      *
+ ********************************/
+
+#videoContent {
+    
+}
+
+/********************************
+ *      Video Template CSS      *
+ ********************************/
+
+#audioContent {
+    
+}
+/********************************
+ *    Directory Template CSS    *
+ ********************************/
+
+#directoryContent {
+    /**/
+}
+
+#dirname {
+    width:100%;
+    margin: 0;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+
+table {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 1.6rem;
+}
+tr, tr:link, tr:visited, tr:active {
+    color: rgb(221, 221, 221);    
+}
+
+tr .yellow {
+    color: yellow;
+}
+
+a, a:link, a:visited {
+    color: inherit;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: inherit;
+}
+
+.dir, .dir:link, .dir:visited, .dir:active {
+    color: rgb(136, 221, 136);
+}
+
+.video, .video:link, .video:visited, .video:active {
+    color: yellow;
+}
+
+.audio, .audio:link, .audio:visited, .audio:active {
+    color: yellow;
+}
+
+.image, .image:link, .image:visited, .image:active {
+    color: yellow;
+}
+
+.appli {
+
+}
+
+#head, #thead:link, #head:visited, #head:active {
+    background: rgba(105,105,105,1);
+    color: yellow;
+    border: inherit;
+}
+
+#foot {
+    display:none;
+}
+
+#foot, #foot:link, #foot:visited, #foot:active {
+    background: rgba(105,105,105,1);
+    color: transparent;
+    border: inherit;
+}
+
+
+
+/********************************
+ *  jQuery Mobile CSS Override  *
+ ********************************/
+/*
+.ui-table-reflow.ui-responsive {
+    display:table;
+}
+ */
+.ui-li-divider {
+    color: transparent;   
+    background: transparent;
+}
+
+.ui-listview-filter-inset { 
+    margin: -15px -5px -15px -5px; 
+    background: transparent;
+    border: none;
+}
+
+.ui-input-search input.ui-input-text {
+    text-shadow: none;
+    color: black;
+}
+
+.ui-mobile {
+    background: #0c0c0c; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzBjMGMwYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjMwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwYzBjMGMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(left,  #0c0c0c 0%, #000000 30%, #000000 70%, #0c0c0c 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#0c0c0c), color-stop(30%,#000000), color-stop(70%,#000000), color-stop(100%,#0c0c0c)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #0c0c0c 0%,#000000 30%,#000000 70%,#0c0c0c 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #0c0c0c 0%,#000000 30%,#000000 70%,#0c0c0c 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #0c0c0c 0%,#000000 30%,#000000 70%,#0c0c0c 100%); /* IE10+ */
+    background: linear-gradient(to right,  #0c0c0c 0%,#000000 30%,#000000 70%,#0c0c0c 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c0c0c', endColorstr='#0c0c0c',GradientType=1 ); /* IE6-8 */
+}
+
+.ui-mobile .ui-page .ui-content, .ui-mobile .ui-page, .ui-overlay-c {
+    background : none;
+}
+
+.ui-page {
+    text-shadow: none;
+}
+
+.ui-body-c .ui-link, .ui-body-c .ui-link:visited, .ui-body-c .ui-link:hover, .ui-body-c .ui-link:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+/************************
+ *  CSS Media Queries   *
+ ************************/
+
+@media only screen and (min-width: 320px) {
+    html { font-size: 62.5%; }  
+    #masterHeader h1 { font-size: 3rem !important; }
+}
+@media only screen and (min-width: 480px) {
+    html { font-size: 62.5%; }  
+    #masterHeader h1 { font-size: 3.25rem !important; }
+}
+@media only screen and (min-width: 600px) {
+    html { font-size: 62.5%; }  
+    #masterHeader h1 { font-size: 4.2rem !important; }
+}
+@media only screen and (min-width: 768px) {
+    html { font-size: 62.5%; }  
+    #masterHeader h1 { font-size: 5rem !important; }
+}
+@media only screen and (min-width: 800px) {
+    html { font-size: 62.5%; }  
+    #masterHeader h1 { font-size: 5rem !important; }
+}
+@media only screen and (min-width: 992px) {
+    html { font-size: 62.5%; }  
+    #masterHeader h1 { font-size: 5rem !important; }
+}
+@media only screen and (min-width: 1024px) {
+    html { font-size: 62.5%; }  
+    #masterHeader h1 { font-size: 5rem !important; }
+}
+@media only screen and (min-width: 1028px) {
+    html { font-size: 62.5%; }  
+    #masterHeader h1 { font-size: 5rem !important; }
+}
+@media only screen and (min-width: 1382px) {
+    html { font-size: 62.5%; }  
+    #masterHeader h1 { font-size: 5rem !important; }
+}
+@media ( min-width: 641px ) {
+	/* Show the table header rows and set all cells to display: table-cell */
+	.tab td,
+	.tab th,
+	.tab tbody th,
+	.tab tbody td,
+	.tab thead td,
+	.tab thead th {
+		display: table-cell;
+		margin: 0;
+	}
+	/* Hide the labels in each cell */
+	.tab td .ui-table-cell-label,
+	.tab th .ui-table-cell-label {
+		display: none;
+	}
+    
+    /*Custom*/
+    tr .sixfive {
+        width: 65px;
+    }
+    tr .seventy {
+        width: 70px
+    }
+    tr .onefifty {
+        width: 150px
+    }
+    
+    tr .center {
+        text-align: center;
+    }
+    
+    tr .left {
+        text-align: left;
+    }
+    
+    tr .right {
+        text-align: right;
+    }
+    
+    th {
+        border: .1rem solid gray;
+        height: 2.0rem;
+    }
+
+    td {
+        border: .1rem solid gray;
+        height: auto;
+    }
+    #foot {
+        display:table-row;
+    }
+    table {
+        table-layout: fixed; 
+        width: 100%;
+        margin: 0 auto;
+        word-wrap: break-word;
+    }
+}
