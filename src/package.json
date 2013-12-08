@@ -19,7 +19,8 @@
   }],
   "repositories": {
     "type": "git",
-    "url": "https://github.com/CarlinJ216/sms-nw.git"
+    "url": "https://github.com/CarlinJ216/sms-nw.git",
+    "path": "packages/sms.nw"
   },
   "keywords" : ["media server", "html5", "video", "streaming", "simple"],
   "webkit": {
